@@ -1,0 +1,14 @@
+.tabss,.addbtn,.cat{
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+.addbtn{
+    background-color: rgb(160, 25, 251);
+    color:#fff !important;
+  
+}
+.cat{
+    
+}
