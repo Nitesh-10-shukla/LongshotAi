@@ -33,7 +33,7 @@ export default function App({ open, close,data }) {
         return () => {
             document.removeEventListener("mousedown", modlalClose);
         };
-    }, [data]);
+    });
     useEffect(() => {
         const body = document.querySelector('body');
         body.style.overflow = open ? 'hidden' : 'auto';
